@@ -6,7 +6,10 @@ let nombreEmpleado = prompt("Ingrese Nombre y Apellido");
 let cuilEmpleado = Number(prompt("Ingrese N° CUIL sin guiones"));
 
 // Bienvenido Usuario
-alert("Bienvenido "+ nombreEmpleado + " N° de Cuil / Registro: " + cuilEmpleado)
+function saludar(nombreEmpleado, cuilEmpleado) {
+    alert("Bienvenido "+ nombreEmpleado + " N° de Cuil / Registro: " + cuilEmpleado)
+}
+saludar(nombreEmpleado, cuilEmpleado);
 
 // Condicional
 let seleccionProducto = prompt("Ingrese Nombre del Producto a Controlar: Monitor / Teclado / Mouse / Parlante");
